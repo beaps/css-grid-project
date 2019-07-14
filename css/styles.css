@@ -43,8 +43,13 @@
   grid-column: 4 / span 2;
 }
 
+.index_3 {
+  grid-column: 6 / span 2;
+}
+
 @media (max-width: 360px) {
-  .index_2 {
-    grid-column: 2;
+  .index_2,
+  .index_3 {
+    grid-column: 1;
   }
 }
