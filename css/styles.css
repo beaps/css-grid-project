@@ -16,6 +16,10 @@
   padding: 0;
 }
 
+:root {
+  --decorative-bars-color: #202020;
+}
+
 .introduction {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.2rem;
@@ -113,8 +117,8 @@
 }
 
 .main-text.w::before {
-  content: " ";
-  background-color: black;
+  content: "";
+  background-color: var(--decorative-bars-color);
   width: 12px;
   height: 180px;
   display: inline-block;
@@ -124,9 +128,28 @@
   transform: skewX(-15deg);
 }
 
+.main-text.w::after {
+  content: "#1";
+  background-color: white;
+  color: rgb(34, 34, 34);
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  width: 40px;
+  height: 40px;
+  border: 12px solid var(--decorative-bars-color);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 143px;
+  top: -31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-text.o::before {
-  content: " ";
-  background-color: black;
+  content: "";
+  background-color: var(--decorative-bars-color);
   width: 12px;
   height: 180px;
   display: inline-block;
@@ -137,8 +160,8 @@
 }
 
 .main-text.r::before {
-  content: " ";
-  background-color: black;
+  content: "";
+  background-color: var(--decorative-bars-color);
   width: 12px;
   height: 180px;
   display: inline-block;
@@ -149,8 +172,8 @@
 }
 
 .main-text.d::before {
-  content: " ";
-  background-color: black;
+  content: "";
+  background-color: var(--decorative-bars-color);
   width: 12px;
   height: 180px;
   display: inline-block;
