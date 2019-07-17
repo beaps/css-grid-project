@@ -16,6 +16,16 @@
   padding: 0;
 }
 
+.introduction {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
+.introduction__contents {
+  color: rgba(255, 0, 0, 0.7);
+}
+
 .container {
   display: flex;
   justify-content: center;
