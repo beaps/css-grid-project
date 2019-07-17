@@ -61,6 +61,7 @@
 .index_4 {
   grid-column: 8 / span 2;
   grid-row: 1;
+  z-index: 1;
 }
 
 .index {
@@ -85,7 +86,8 @@
 
 .main-text.w,
 .main-text.o,
-.main-text.r {
+.main-text.r,
+.main-text.d {
   position: relative;
 }
 
@@ -122,6 +124,18 @@
   position: absolute;
   left: 81px;
   top: 25px;
+  transform: skewX(-9deg);
+}
+
+.main-text.d::before {
+  content: " ";
+  background-color: black;
+  width: 12px;
+  height: 180px;
+  display: inline-block;
+  position: absolute;
+  left: 71px;
+  top: -71px;
   transform: skewX(-9deg);
 }
 
