@@ -60,7 +60,7 @@
   grid-row-start: 2;
   line-height: 187px;
   color: rgba(255, 0, 0, 0.7);
-  /* color: #ef4140; */
+  position: relative;
 }
 
 .index_1 {
@@ -107,13 +107,6 @@
   font-family: "PT Serif", serif;
   color: rgb(80, 80, 80);
   line-height: 0.9rem;
-}
-
-.main-text.w,
-.main-text.o,
-.main-text.r,
-.main-text.d {
-  position: relative;
 }
 
 .main-text.w::before {
