@@ -26,6 +26,10 @@
   color: rgba(255, 0, 0, 0.7);
 }
 
+.introduction__contents::before {
+  content: "›";
+}
+
 .container {
   display: flex;
   justify-content: center;
