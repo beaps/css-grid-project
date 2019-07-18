@@ -240,6 +240,10 @@
   .author {
     margin: 1.5rem 0.5rem;
   }
+
+  .introduction {
+    margin-left: 0.5rem;
+  }
 }
 
 @media (max-width: 420px) {
