@@ -192,7 +192,8 @@
   color: rgb(32, 32, 32);
 }
 
-.author a:hover {
+.author a:hover,
+.author a:focus {
   text-decoration: none;
   color: white;
   background-color: rgba(255, 0, 0, 0.7);
